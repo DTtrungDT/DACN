@@ -1,0 +1,150 @@
+#wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+}
+#header{
+margin: 10px;
+}
+
+#logo{
+    background-image: url('https://image.mekongasean.vn/1200x630/Uploaded/2024/zreyxqdrky/2021_09_27/ngay-du-lich-the-gioi-3981.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+flex-basis: 20%;
+font-weight: bold;
+padding: 5px;
+border-radius: 10px; 
+letter-spacing: 35px;
+text-shadow: 0 0 10px #170c0c;
+
+}
+#search{
+    font-weight: bold;
+    padding-left: 30px;
+    text-align: left;
+    flex-basis: 70%;
+    background: #5a78d3;
+    border-radius: 10px;
+
+}
+
+#footer{
+    background: gray;
+}
+#wp-content{
+    display: flex;
+
+}
+#friend{
+    margin: 10px;
+}
+#sidebar{ 
+    text-decoration: none;
+    flex-basis: 20%;
+    background-color: #2e1496;
+    padding: 10px 15px;
+    border-radius: 30px; 
+    line-height: 50px;
+    text-decoration-color: #fff;
+    text-transform: uppercase; 
+   margin: 10px;
+    
+}
+#content{
+    flex-basis: 60%;
+}
+#friend{
+    background-color: rgb(173, 171, 193);
+    flex-basis: 20%;
+    text-decoration: none;
+    border-radius: 30px; 
+    padding-left: 20px;
+.sidebar2{
+    list-style: none;
+}
+}
+.acti a{
+    padding: 10px;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background-color: #b5bfdf; 
+    justify-content: space-between;
+    
+}
+#avatar{
+    padding-left:20px ;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 10px;
+}
+.avatar-image {
+    border-radius: 50%;
+    width: 70px; 
+    height: 70px;
+    object-fit: cover; 
+}
+
+.username {
+    margin-left: 10px; 
+}
+.home-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.home-link i {
+    margin-right: 20px; 
+}
+.direction-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.direction-link i {
+    margin-right: 20px; 
+}
+.post-link {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+.post-link i {
+    margin-right: 20px; 
+  }
+.account-link {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+.account-link i {
+    margin-right: 20px; 
+}
+
+.highlight-link {
+    transition: color 0.3s; 
+}
+
+.highlight-link:hover {
+    color:  rgb(242, 9, 114); 
+    font-weight: bold; 
+}
+.friend-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .group-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.group-link i {
+    margin-right: 20px; 
+}

@@ -1,0 +1,99 @@
+.friend-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .friend-info {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .friend-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .chat-messages {
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .message2 {
+    margin-bottom: 10px;
+  }
+  .message{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .sender {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .content {
+    margin-left: 5px;
+  }
+  
+  .message.sent .content {
+    margin-left: auto;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 16px;
+  }
+  
+  .message.received .content {
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 20px;
+    padding: 8px 16px;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .message-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .send-button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }

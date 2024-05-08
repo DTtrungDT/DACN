@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b5bfdf;
+  }
+  #header{
+    background-image: url('https://image.mekongasean.vn/1200x630/Uploaded/2024/zreyxqdrky/2021_09_27/ngay-du-lich-the-gioi-3981.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+flex-basis: 20%;
+font-weight: bold;
+padding: 5px;
+border-radius: 10px; 
+letter-spacing: 35px;
+text-shadow: 0 0 10px #170c0c;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .group-list {
+    margin-top: 20px;
+    
+  }
+  
+  .group-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #8999c8;
+  }
+  
+
+  
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .group-info {
+    flex-grow: 1;
+    
+;
+  }
+  
+  .group-name {
+    margin-bottom: 5px;
+   
+  }
+  #avatar{
+    padding-left:20px ;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+  .location, .gps, .members, .cost {
+    margin: 0;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
