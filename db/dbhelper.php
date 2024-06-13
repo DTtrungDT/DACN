@@ -3,20 +3,22 @@ require_once('config.php');
 function execute($sql){
     //open connection
     $conn = mysqli_connect(HOST, DATABASE, USERNAME ,PASSWORD);
-    mysqli_set_charset('utf8');
+    $sql = "SET NAMES 'utf8'";
+    mysqli_query($conn, $sql);
 
     // query
     mysqli_query($conn,$sql);
 
     //close connection
-    mysqli_close($conn)
+    mysqli_close($conn);
 }
 
 function execute_Result($sql,$isSingle=false){
     $data = null;
     //open connection
     $conn = mysqli_connect(HOST, DATABASE, USERNAME ,PASSWORD);
-    mysqli_set_charset('utf8');
+    $sql = "SET NAMES 'utf8'";
+    mysqli_query($conn, $sql);
 
     // query
    
@@ -31,7 +33,7 @@ function execute_Result($sql,$isSingle=false){
     }}
 
     //close connection
-    mysqli_close($conn)
+    mysqli_close($conn);
     return $data;
 }
 ?>
